@@ -1,0 +1,172 @@
+body {
+	margin-left:1%;
+	margin-right:1%;
+	font-family: 'Raleway', sans-serif;
+  padding-top:130px;
+  background-color:#f4a742;
+
+
+}
+*{
+background-color: rgb(0,0,0,0);
+ }
+
+
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: bottom;
+  font-family: 'Raleway', sans-serif;
+ 
+
+ 
+
+
+
+}
+.navbar .navbar-nav li {
+	padding-left:10px;
+	font-family: 'Raleway', sans-serif;
+  color:rgba(21, 21, 21, 0.75);
+}
+
+
+
+.navbar .navbar-collapse {
+  text-align: center;
+  vertical-align: bottom;
+  padding-top:65px;
+  background:white;
+  font-size:14px;
+  text-decoration-color: gray;
+  font-family: 'Raleway', sans-serif;
+ 
+
+
+}
+
+.navbar  {
+ height:110px;
+}
+
+.navbar-brand {
+	text-align: center;
+	margin-left:565%;
+	vertical-align: bottom;
+	margin-top:5px;
+
+}
+
+/* second Dropdown Button */
+.dropbtn {
+    background-color: white;
+    color: gray;
+    padding: 15px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    min-width: 160px;
+    background-color: white;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left:6%;
+    font-family: 'Raleway', sans-serif;
+ 
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: gray;
+    padding-bottom:15px;
+    padding-right:10px;
+    padding-left:0px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+ 
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: white}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: white;
+}
+
+ul {
+	list-style-type: none;
+	padding:0;
+}
+
+
+.row  {
+  
+  text-align:center;
+
+}
+
+.row {
+  
+  text-align: justify;
+
+
+}
+h2 {
+   color:rgba(21, 21, 21, 0.75)!important;
+  text-align: center !important;
+  padding-top:25px !important;
+  padding-left:28% !important;
+  padding-right:28% !important;
+  padding-bottom:25px !important;
+  font-size:18px !important;
+  font-family: 'Raleway', sans-serif !important;
+   color:rgba(21, 21, 21, 0.75) !important;
+
+
+}
+
+h3 {
+   
+font-family: 'Raleway', sans-serif !important;
+  font-size:20px !important;
+  text-align:center;
+  padding-bottom: 10px;
+   color:rgba(21, 21, 21, 0.75)!important;
+  }
+
+  p {
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 18px !important;
+     padding-left:28% !important;
+      padding-right:28% !important;
+       text-align: center !important;
+       padding-top:0px !important;
+       padding-bottom: 0px !important;
+       margin-bottom: 0px!important;
+       margin-top:0px !important;
+        color:rgba(21, 21, 21, 0.75)!important;
+
+  }
+
+

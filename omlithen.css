@@ -1,0 +1,417 @@
+body {
+	margin-left:1%;
+	margin-right:1%;
+	font-family: 'Raleway', sans-serif;
+  padding-top:130px;
+  background-color:#f4a742;
+
+
+}
+*{
+background-color: rgb(0,0,0,0);
+ }
+
+
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: bottom;
+  font-family: 'Raleway', sans-serif;
+ 
+
+ 
+
+
+
+}
+.navbar .navbar-nav li {
+	padding-left:10px !important;
+  display:block !important;
+ 
+
+	font-family: 'Raleway', sans-serif;
+  color:rgba(21, 21, 21, 0.75);
+}
+
+
+
+.navbar .navbar-collapse {
+  text-align: center;
+  vertical-align: bottom;
+  padding-top:65px;
+  background:white;
+  font-size:14px;
+  text-decoration-color: gray;
+  font-family: 'Raleway', sans-serif;
+ 
+
+
+}
+
+.navbar  {
+ height:110px;
+}
+
+.navbar-brand {
+	text-align: center;
+	margin-left:565% ;
+	vertical-align: bottom;
+	margin-top:5px;
+
+}
+
+/* second Dropdown Button */
+.dropbtn {
+    background-color: white;
+    color: gray;
+    padding: 15px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    min-width: 160px;
+
+    background-color: white;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left:6%;
+    font-family: 'Raleway', sans-serif;
+ 
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+   color: gray;
+    padding-bottom:15px;
+    padding-right:10px;
+    padding-left:0px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+ 
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: white}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: white;
+}
+
+ul {
+	list-style-type: none;
+	padding:0 !important;
+  margin:0 !important;
+}
+
+
+.row  {
+  
+  text-align:center;
+
+}
+
+/* ends */
+
+h5,h2,h3,h4,p {
+  text-align: center;
+}
+
+
+
+
+h5 {
+  font-size: 19px !important;
+  padding-bottom:50px;
+  padding-left:38%;
+  padding-right:38%;
+  font-family: 'Raleway', sans-serif !important;
+  color:rgba(21, 21, 21, 0.75) !important;
+}
+
+
+h2 {
+  font-size: 40px !important;
+  font-family: 'Raleway', sans-serif !important;
+  
+}
+
+h3 {
+  font-size: 15px !important;
+  font-family: 'Raleway', sans-serif !important;
+  color:rgba(21, 21, 21, 0.75) !important;
+}
+
+
+p {
+   padding-left:27%;
+  padding-right:27%;
+  padding-top: 1px !important;
+  margin:0 !important;
+  font-family: 'Raleway', sans-serif;
+  color:rgba(21, 21, 21, 0.75);
+
+}
+
+
+h4 {
+
+  font-size:15px !important;
+
+  font-family: 'Raleway', sans-serif !important;
+  color:rgba(21, 21, 21, 0.75) !important;
+  padding-top:30px;
+
+}
+
+
+.row1 img{
+  width:350.33px;
+  margin-left:2%;
+  
+}
+
+ .row1 ul{
+  white-space: nowrap;
+  padding:0 !important;
+  margin:0 !important;
+ }
+.row1 ul, li {
+  list-style: none;
+  display:inline;
+  padding:0 !important;
+  margin:0 !important;
+}
+
+
+.row2 img{
+  width:350.33px;
+  margin-left:2%;
+  
+}
+
+ .row2 ul{
+  white-space: nowrap;
+  padding:0 !important;
+  margin:0 !important;
+ }
+.row2 ul, li {
+  list-style: none;
+  display:inline;
+  padding:0 !important;
+  margin:0 !important;
+}
+
+
+
+
+.container{
+  width:100%;
+  margin-left:20% !important;
+  padding:0 !important;
+
+
+    
+
+}
+
+.container .row {
+  margin-right:20% !important;
+  padding:0 !important;
+  width:100% !important;
+
+
+}
+
+.jumbotron {
+  height:100px;
+  width:388px;
+  float:left;
+  margin:0 !important;
+  padding:0 !important;
+  background-color: white !important;
+}
+
+
+/* first jumbotron */
+.jumbotron h2 {
+  float:center;
+  padding-top:0 !important;
+  margin-top:0 !important;
+  padding-left:9%;
+  font-size:18px !important;
+  letter-spacing: 2px;
+   font-family: 'Raleway', sans-serif !important;
+  color:rgba(21, 21, 21, 0.75) !important;
+  
+}
+
+.jumbotron h5 {
+  float:left !important;
+ font-family: 'Raleway', sans-serif !important;
+  color:rgba(21, 21, 21, 0.75) !important;
+  font-size: 15px !important;
+  margin-top:3px !important;
+  padding-top:0 !important;
+   padding-right:0 !important;
+    padding-left:0 !important;
+  margin-left:25px !important;
+  margin-right:25px !important;
+  margin-bottom: 5px !important;
+  padding-bottom: 0 !important;
+  line-height: 1em !important;
+
+}
+
+ /* second jumbotron */
+.jumbotron h3 {
+  float:center;
+  padding-top:0 !important;
+  margin-top:0 !important;
+  padding-left:8%;
+  font-size:18px !important;
+  letter-spacing: 3px;
+   font-family: 'Raleway', sans-serif !important;
+  color:rgba(21, 21, 21, 0.75) !important;
+  
+}
+
+.jumbotron h6 {
+  float:left !important;
+  
+  font-family: 'Raleway', sans-serif !important;
+  color:rgba(21, 21, 21, 0.75) !important;
+  font-size:15px !important;
+  margin-top:3px !important;
+  padding-top:0 !important;
+   padding-right:0 !important;
+    padding-left:0 !important;
+  margin-left:25px !important;
+  margin-right:25px !important;
+  margin-bottom: 5px !important;
+  padding-bottom: 0 !important;
+  line-height: 1em !important;
+}
+
+
+
+
+/* third  jumbotron */
+
+.jumbotron h4 {
+  float:center;
+  padding-top:0 !important;
+  margin-top:0 !important;
+  padding-left:5%;
+  font-size:18px !important;
+  letter-spacing: 3px;
+   font-family: 'Raleway', sans-serif !important;
+  color:rgba(21, 21, 21, 0.75) !important;
+  
+}
+
+.jumbotron p {
+  float:left !important;
+  margin-top:3px !important;
+  padding-top:0 !important;
+   padding-right:0 !important;
+    padding-left:0 !important;
+  margin-left:25px !important;
+  margin-right:25px !important;
+  margin-bottom: 5px !important;
+ 
+  font-family: 'Raleway', sans-serif !important;
+  color:rgba(21, 21, 21, 0.75) !important;
+  font-size:15px !important;
+  line-height: 1em !important;
+
+}
+
+* {
+  font-family: 'Raleway', sans-serif !important;
+  color:rgba(21, 21, 21, 0.75) !important;
+}
+
+
+
+.jumbotron button{
+  padding:0;
+  margin:0;
+  width:160px;
+  height:50px;
+  margin-top:12px;
+  background:rgba(21, 21, 21, 0.87) !important;
+  background-color: rgba(21, 21, 21, 0.87) !important;
+  
+  
+  color:white !important;
+
+}
+/* button container ends */
+
+
+
+
+.container-fluid {
+  margin-top:100px !important;
+
+}
+
+.container-fluid {
+  padding-top:30px;
+  margin-left:0px;
+}
+
+.container-fluid .jumbotron {
+  
+  height:250px;
+  width:1200px;
+  background-color: rgba(21, 21, 21, 0.87) !important;
+}
+
+.container-fluid .jumbotron h2{
+  padding:0;
+  margin:0;
+  font-size: 25px;
+  font-weight: 0 !important;
+  letter-spacing: 2px;
+  margin-top:85px !important;
+  color:white !important;
+  letter-spacing: 3px;
+}
+
+.container-fluid .jumbotron button {
+  padding:0;
+  margin:0;
+  width:165px;
+  height:40px;
+  margin-top:12px;
+  background:none !important;
+  text-decoration-color: white;
+  color:white;
+  border-color: white;
+  border-width: 1px;
+   
+
+
+}
